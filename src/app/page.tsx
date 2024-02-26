@@ -1,10 +1,15 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import { Description } from "./components/shared/Header/home/Description";
+import { Hero } from "./components/shared/Header/home/Hero";
+import { MainProducts } from "./components/shared/Header/home/MainProducts";
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Hola Mundo xD</h1>
+    <main>
+      <Hero />
+      <Description />
+      <MainProducts />
     </main>
   );
 }
