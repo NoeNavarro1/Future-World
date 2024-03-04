@@ -1,11 +1,13 @@
-import { Inter } from "next/font/google";
+import {Armata} from 'next/font/google' 
 import { Header } from "../components/shared/Header";
 import { Footer } from "../components/shared/Footer";
 import "../sass/globals.sass";
 
-const inter = Inter({ subsets: ["latin"] });
 
-
+const armata = Armata({
+  weight: ["400"],
+  subsets: ["latin-ext"]
+})
 
 export default function RootLayout({
   children,
@@ -14,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={armata.className}>
       <Header />
         {children}
       <Footer />
