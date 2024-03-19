@@ -4,6 +4,7 @@ import { Footer } from "../components/shared/Footer";
 import "../sass/globals.sass";
 
 
+
 const armata = Armata({
   weight: ["400"],
   subsets: ["latin-ext"]
