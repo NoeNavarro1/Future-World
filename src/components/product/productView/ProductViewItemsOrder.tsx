@@ -1,6 +1,5 @@
 "use client";
 import { SyntheticEvent, useState } from "react";
-import { FaCartShopping } from 'react-icons/fa6';
 import styles from "./ProductViewItemsOrder.module.sass";
 
 
@@ -42,7 +41,7 @@ export const ProductViewItemsOrder = ({ maxQuantity }: ProductViewItemsOrderProp
           className={styles.ProductViewItemsOrder__submit}
           type="submit"
         >
-          <FaCartShopping />
+
           <span>Add to cart</span>
         </button>
       </form>
