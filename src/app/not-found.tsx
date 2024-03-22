@@ -8,7 +8,7 @@ export default function NotFound(){
             <h1 className={styles.NotFound__title}>404</h1>
             <Image 
             src="/images/404.png"
-            alt="404"
+            alt="404" //server  error
             width={300}
             height={300}
             />
