@@ -1,16 +1,12 @@
-.Header__list {
-    display: flex;
-    flex-flow: row nowrap;
-    list-style: none;
-    column-gap: 2.5rem;
-    margin: 0 auto;
-    padding: 2rem;
-    justify-content: center;
-  }
-  
-  .Header__list > li > a
-  {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
+/* Header.module.css */
+.horizontalList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Esto centra los elementos horizontalmente */
+}
+
+.horizontalList li {
+  display: inline-block; /* Esto hace que los elementos estén en línea horizontalmente */
+  margin-right: 10px; /* Puedes ajustar el margen según tus necesidades */
+}
